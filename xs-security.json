@@ -1,0 +1,19 @@
+{
+  "xsappname": "Shop_MTA_V5",
+  "tenant-mode": "dedicated",
+  "description": "Security profile of called applications",
+  "role-templates": [
+    {
+      "name": "Token_Exchange",
+      "description": "UAA UAAT",
+      "scope-references": [
+        "uaa.user"
+      ]
+    }
+  ],
+  "oauth2-configuration": {
+    "redirect-uris": [
+      "https://*.hana.ondemand.com/**"
+    ]
+  }
+}

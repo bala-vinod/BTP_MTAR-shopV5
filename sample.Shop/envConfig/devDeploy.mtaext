@@ -1,0 +1,6 @@
+_schema-version: '3.1'
+ID: Shop_MTA_V5.devconfig
+extends: Shop_MTA_V5
+parameters:
+    dep-space: dev
+    xs-uaa-app-name: shopv5dev
