@@ -1,0 +1,1 @@
+{"schemaValidationError":"false","Description":"Purchase Order structure from S/4HANA","qualifySchema":"0","BundleVersion":"1.0.2","contentmodel":"X","namespace":"http://releaseowl.com/s4/purchaseorder","modifiedInCPI":"true","BundleSymbolicName":"DT_PurchaseOrder","category":"Complex Type","classification":"Free-Style Data Type"}

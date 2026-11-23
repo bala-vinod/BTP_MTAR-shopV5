@@ -1,0 +1,92 @@
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://releaseowl.com/s4/purchaseorder" targetNamespace="http://releaseowl.com/s4/purchaseorder">
+   <xsd:complexType name="DT_PurchaseOrder">
+      <xsd:annotation>
+         <xsd:documentation xml:lang="EN">
+         Purchase Order structure from S/4HANA
+         </xsd:documentation>
+      </xsd:annotation>
+      <xsd:sequence>
+         <xsd:element name="PONumber">
+            <xsd:annotation>
+               <xsd:documentation>
+               Purchase Order number from S/4HANA
+               </xsd:documentation>
+            </xsd:annotation>
+            <xsd:simpleType>
+               <xsd:restriction base="xsd:string">
+                  <xsd:maxLength value="10" />
+               </xsd:restriction>
+            </xsd:simpleType>
+         </xsd:element>
+         <xsd:element name="PODate" type="xsd:date">
+            <xsd:annotation>
+               <xsd:documentation>
+               Purchase Order creation date
+               </xsd:documentation>
+            </xsd:annotation>
+         </xsd:element>
+         <xsd:element name="VendorID">
+            <xsd:annotation>
+               <xsd:documentation>
+               Supplier number from S/4HANA
+               </xsd:documentation>
+            </xsd:annotation>
+            <xsd:simpleType>
+               <xsd:restriction base="xsd:string">
+                  <xsd:maxLength value="10" />
+               </xsd:restriction>
+            </xsd:simpleType>
+         </xsd:element>
+         <xsd:element name="Plant">
+            <xsd:annotation>
+               <xsd:documentation>
+               Receiving plant code
+               </xsd:documentation>
+            </xsd:annotation>
+            <xsd:simpleType>
+               <xsd:restriction base="xsd:string">
+                  <xsd:maxLength value="4" />
+               </xsd:restriction>
+            </xsd:simpleType>
+         </xsd:element>
+         <xsd:element name="Material">
+            <xsd:annotation>
+               <xsd:documentation>
+               Material number
+               </xsd:documentation>
+            </xsd:annotation>
+            <xsd:simpleType>
+               <xsd:restriction base="xsd:string">
+                  <xsd:maxLength value="40" />
+               </xsd:restriction>
+            </xsd:simpleType>
+         </xsd:element>
+         <xsd:element name="Quantity">
+            <xsd:annotation>
+               <xsd:documentation>
+               Ordered quantity
+               </xsd:documentation>
+            </xsd:annotation>
+            <xsd:simpleType>
+               <xsd:restriction base="xsd:decimal">
+                  <xsd:totalDigits value="13" />
+                  <xsd:fractionDigits value="3" />
+               </xsd:restriction>
+            </xsd:simpleType>
+         </xsd:element>
+         <xsd:element name="Unit" minOccurs="0">
+            <xsd:annotation>
+               <xsd:documentation>
+               Unit of measure
+               </xsd:documentation>
+            </xsd:annotation>
+            <xsd:simpleType>
+               <xsd:restriction base="xsd:string">
+                  <xsd:maxLength value="3" />
+               </xsd:restriction>
+            </xsd:simpleType>
+         </xsd:element>
+      </xsd:sequence>
+   </xsd:complexType>
+</xsd:schema>
