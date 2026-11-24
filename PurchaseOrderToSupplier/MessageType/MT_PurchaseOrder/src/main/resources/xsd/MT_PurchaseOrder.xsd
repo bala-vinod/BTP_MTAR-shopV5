@@ -1,0 +1,5 @@
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://releaseowl.com/s4/purchaseorder" targetNamespace="http://releaseowl.com/s4/purchaseorder">
+   <xsd:include schemaLocation="dt://schema?key=DT_PurchaseOrder|DT_PurchaseOrder" />
+   <xsd:element name="MT_PurchaseOrder" type="DT_PurchaseOrder" />
+</xsd:schema>

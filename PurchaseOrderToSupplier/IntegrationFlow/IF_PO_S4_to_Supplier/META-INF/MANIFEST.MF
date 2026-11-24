@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: IF_PO_S4_to_Supplier
 Bundle-SymbolicName: IF_PO_S4_to_Supplier; singleton:=true
-Bundle-Version: 1.0.5
+Bundle-Version: 1.0.7
 SAP-BundleType: IntegrationFlow
 SAP-NodeType: IFLMAP
 SAP-RuntimeProfile: iflmap
@@ -32,6 +32,6 @@ Origin-Bundle-Name: IF_PO_S4_to_Supplier
 Origin-Bundle-SymbolicName: IF_PO_S4_to_Supplier
 Require-Capability: messagemapping.MM_PO_S4_to_Supplier;resolution:=opti
  onal;bundleType:String="MessageMapping";source:String="reference"
-Origin-Bundle-Version: 1.0.2
-Origin-ModifiedDate: 1794907548620
+Origin-Bundle-Version: 1.0.7
+Origin-ModifiedDate: 1795516803001
 

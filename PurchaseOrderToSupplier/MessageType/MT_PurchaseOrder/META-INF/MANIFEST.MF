@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: MT_PurchaseOrder
+Bundle-SymbolicName: MT_PurchaseOrder
+Bundle-Version: 1.0.3
+SAP-BundleType: MessageType
+SAP-NodeType: IFLMAP
+Import-Package: 
+Provide-Capability: messagetype.MT_PurchaseOrder;version:Version="1.0.3"
+

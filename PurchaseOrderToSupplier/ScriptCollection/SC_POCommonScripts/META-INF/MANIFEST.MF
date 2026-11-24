@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SC_POCommonScripts
+Bundle-SymbolicName: SC_POCommonScripts
+Bundle-Version: 1.0.2
+SAP-BundleType: ScriptCollection
+SAP-NodeType: IFLMAP
+Import-Package: org.osgi.framework
+Provide-Capability: scriptcollection.SC_POCommonScripts;version:Version=
+ "1.0.2"
+Origin-Bundle-Name: SC_POCommonScripts
+Origin-Bundle-SymbolicName: SC_POCommonScripts
+Origin-Bundle-Version: 1.0.2
+Origin-ModifiedDate: 1795507468520
+

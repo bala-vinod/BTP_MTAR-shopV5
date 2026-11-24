@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: VM_PlantCodes
+Bundle-SymbolicName: VM_PlantCodes
+Bundle-Version: 1.0.2
+SAP-BundleType: ValueMapping
+SAP-NodeType: IFLMAP
+Import-Package: com.sap.xi.mapping.camel.valmap
+Bundle-Activator: com.sap.xi.mapping.camel.valmap.ValueMappingActivator
+Origin-Bundle-Name: VM_PlantCodes
+Origin-Bundle-Version: 1.0.2
+Origin-Bundle-SymbolicName: VM_PlantCodes
+Origin-ModifiedDate: 1795507448934
+
