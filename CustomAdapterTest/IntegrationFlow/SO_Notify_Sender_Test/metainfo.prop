@@ -1,0 +1,3 @@
+#Store metainfo properties
+#Tue Nov 24 12:43:51 UTC 2026
+description=Polls sales orders into CPI using the SalesOrderNotify sender adapter
